@@ -1,4 +1,6 @@
-if [ $1 = '-h' ]; then
+#!/usr/bin/env bash
+
+if [[ $1 = '-h' ]]; then
   echo "Open SSH shell on private personal server using alfa as jump server "
   echo "Usage: ./jumpIn.sh uniboEmail clusterUser clusterNumber"
 else
