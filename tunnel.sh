@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $1 = '-h' ]; then
-  echo Usage: ./tunnel.sh localPort remotePort privateServer userOrEmail [sshTarget]
+  echo "Usage: ./tunnel.sh localPort remotePort privateServer userOrEmail [sshTarget]"
 else
   if [ $5 ]; then
     SSHTARGET=$5
