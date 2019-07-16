@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 if [[ $1 = '-h' ]]; then
+  echo "Tunnel WebHDFS remote ports 50070 and 50075 to local host"
   echo "Usage: ./webhdfs.sh uniboEmail [localPort1] [localPort2]"
 else
   PORT1=50070

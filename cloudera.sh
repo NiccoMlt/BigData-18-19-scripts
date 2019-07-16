@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 if [[ $1 = '-h' ]]; then
+  echo "Tunnel remote Cloudera web GUI (port 7180)"
   echo "Usage: ./cloudera.sh uniboEmail [localPort]"
 else
   PORT=7180
